@@ -1,33 +1,36 @@
 {
-	"name": "Respond.js",
-	"description": "min/max-width media query polyfill",
-	"version": "1.4.2",
-	"homepage": "https://github.com/scottjehl/Respond",
-	"homepageShortened": "https://j.mp/respondjs",
-	"author": {
-		"name": "Scott Jehl",
-		"email": "scott@filamentgroup.com",
-		"url": "https://filamentgroup.com"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/scottjehl/Respond.git"
-	},
-	"bugs": {
-		"url": "https://github.com/scottjehl/Respond/issues"
-	},
-	"licenses": [
-		{
-			"type": "MIT",
-			"url": "https://github.com/scottjehl/Respond/blob/master/LICENSE-MIT"
-		}
-	],
-	"devDependencies": {
-		"grunt-cli":"~0.1",
-		"grunt": "~0.4.0",
-		"grunt-contrib-jshint": "~0.2.0",
-		"grunt-contrib-qunit": "~0.3.0",
-		"grunt-contrib-uglify": "0.2.7"
-	}
-
+  "name": "ouanalyse-respondjs",
+  "description": "min/max-width media query polyfill",
+  "version": "1.4.2",
+  "homepage": "https://github.com/scottjehl/Respond",
+  "homepageShortened": "https://j.mp/respondjs",
+  "author": "Scott Jehl <scott@filamentgroup.com> (https://filamentgroup.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottjehl/Respond.git"
+  },
+  "bugs": {
+    "url": "https://github.com/scottjehl/Respond/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/scottjehl/Respond/blob/master/LICENSE-MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt-cli": "~0.1",
+    "grunt": "~0.4.0",
+    "grunt-contrib-jshint": "~0.2.0",
+    "grunt-contrib-qunit": "~0.3.0",
+    "grunt-contrib-uglify": "0.2.7"
+  },
+  "main": "dest/respond.src.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
 }
